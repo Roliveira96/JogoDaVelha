@@ -62,8 +62,8 @@ class Jogador extends Modelo
                 '',
                 '',
                 $registro['email'],
-                '',
-                $registro['id']
+                ''
+
             );
             $objeto->senha = $registro['senha'];
         }

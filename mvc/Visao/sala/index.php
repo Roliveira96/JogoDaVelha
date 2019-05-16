@@ -3,49 +3,30 @@
 
 
 <div class="row">
-    <h4 class="center">Login</h4>
-    <h6 class="center">Por favor entre com suas informações</h6>
+    <h4 class="center">Sala de Espera</h4>
 
 
-    <div class="col offset-s3 s6  offset-m3 m6 ">
-        <div class="card  darken-1 z-depth-3">
-            <div class="card-content" >
-
-                <div class="center-block site">
 
 
-                        <form action="<?= URL_RAIZ . 'login'?>" method="post" class="form-inline pull-left">
-                            
-                            
-                            <div class="form ">
-                                <img class="img_login" src="<?=URL_IMG.'login.png' ?>">
+                    <div class="row">
+                        <div class="col s12 m3">
+                            <div class="card blue-grey darken-1">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Sala Teste </span>
+                                    <p>Sala teste </p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">1° Jogador</a>
+                                    <a href="#">2° Jogador</a>
+                                </div>
                             </div>
-                            <div class="form">
-                                <input id="usuario" name="usuario" class="form-control campo-form" autofocus
-                                       placeholder="Email">
-                            </div>
-                            <div class="form">
-                                <input id="texto" name="senha"   type="password" placeholder="Senha">
-                            </div>
+                        </div>
+                    </div>
 
-                            <div class="center form" >
 
-                                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                                    <i class="material-icons right">send</i>
-                                </button>
-                            </div>
-
-                            
-                            
-                        </form>
-                
                 </div>
-            </div>
-        </div>
-    </div>
 
 
 
 
-</div>
-<h6 class="center"><a href="<?= URL_RAIZ . 'cadastroUsuario' ?>" >Crie sua conta gratuitamente!</a></h6>
+
