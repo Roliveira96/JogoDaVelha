@@ -1,0 +1,70 @@
+[16-May-2019 11:42:45 America/Sao_Paulo] PHP Warning:  require_once(/var/www/html/web/jogoDaVelha/mvc/Modelo/Usuario.php): failed to open stream: No such file or directory in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:42:45 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/web/jogoDaVelha/mvc/Modelo/Usuario.php' (include_path='.:/usr/share/php') in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:46:40 America/Sao_Paulo] PHP Warning:  require_once(/var/www/html/web/jogoDaVelha/mvc/Modelo/Usuario.php): failed to open stream: No such file or directory in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:46:40 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/web/jogoDaVelha/mvc/Modelo/Usuario.php' (include_path='.:/usr/share/php') in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:47:03 America/Sao_Paulo] PHP Warning:  require_once(/var/www/html/web/jogoDaVelha/mvc/Modelo/Usuario.php): failed to open stream: No such file or directory in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:47:03 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/web/jogoDaVelha/mvc/Modelo/Usuario.php' (include_path='.:/usr/share/php') in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:48:35 America/Sao_Paulo] PHP Warning:  require_once(/var/www/html/web/jogoDaVelha/mvc/Modelo/Usuario.php): failed to open stream: No such file or directory in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:48:35 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/web/jogoDaVelha/mvc/Modelo/Usuario.php' (include_path='.:/usr/share/php') in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:48:44 America/Sao_Paulo] PHP Warning:  require_once(/var/www/html/web/jogoDaVelha/mvc/Modelo/Usuario.php): failed to open stream: No such file or directory in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:48:44 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/web/jogoDaVelha/mvc/Modelo/Usuario.php' (include_path='.:/usr/share/php') in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:49:01 America/Sao_Paulo] PHP Notice:  Undefined index: id in /var/www/html/web/jogoDaVelha/mvc/Modelo/Jogador.php on line 64
+[16-May-2019 11:49:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Modelo\Jogador::verificarSenha() in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php:26
+Stack trace:
+#0 [internal function]: Controlador\LoginControlador->login()
+#1 /var/www/html/web/framework/DW3Aplicacao.php(44): call_user_func_array(Array, Array)
+#2 /var/www/html/web/framework/DW3Aplicacao.php(18): Framework\DW3Aplicacao->executarControlador()
+#3 /var/www/html/web/jogoDaVelha/index.php(6): Framework\DW3Aplicacao->executar()
+#4 {main}
+  thrown in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php on line 26
+[16-May-2019 11:49:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in /var/www/html/web/jogoDaVelha/mvc/Modelo/Jogador.php on line 64
+[16-May-2019 11:49:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Modelo\Jogador::verificarSenha() in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php:26
+Stack trace:
+#0 [internal function]: Controlador\LoginControlador->login()
+#1 /var/www/html/web/framework/DW3Aplicacao.php(44): call_user_func_array(Array, Array)
+#2 /var/www/html/web/framework/DW3Aplicacao.php(18): Framework\DW3Aplicacao->executarControlador()
+#3 /var/www/html/web/jogoDaVelha/index.php(6): Framework\DW3Aplicacao->executar()
+#4 {main}
+  thrown in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php on line 26
+[16-May-2019 11:50:47 America/Sao_Paulo] PHP Notice:  Undefined index: id in /var/www/html/web/jogoDaVelha/mvc/Modelo/Jogador.php on line 66
+[16-May-2019 11:50:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Modelo\Jogador::verificarSenha() in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php:26
+Stack trace:
+#0 [internal function]: Controlador\LoginControlador->login()
+#1 /var/www/html/web/framework/DW3Aplicacao.php(44): call_user_func_array(Array, Array)
+#2 /var/www/html/web/framework/DW3Aplicacao.php(18): Framework\DW3Aplicacao->executarControlador()
+#3 /var/www/html/web/jogoDaVelha/index.php(6): Framework\DW3Aplicacao->executar()
+#4 {main}
+  thrown in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php on line 26
+[16-May-2019 11:50:55 America/Sao_Paulo] PHP Notice:  Undefined index: id in /var/www/html/web/jogoDaVelha/mvc/Modelo/Jogador.php on line 66
+[16-May-2019 11:50:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Modelo\Jogador::verificarSenha() in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php:26
+Stack trace:
+#0 [internal function]: Controlador\LoginControlador->login()
+#1 /var/www/html/web/framework/DW3Aplicacao.php(44): call_user_func_array(Array, Array)
+#2 /var/www/html/web/framework/DW3Aplicacao.php(18): Framework\DW3Aplicacao->executarControlador()
+#3 /var/www/html/web/jogoDaVelha/index.php(6): Framework\DW3Aplicacao->executar()
+#4 {main}
+  thrown in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php on line 26
+[16-May-2019 11:52:05 America/Sao_Paulo] PHP Notice:  Undefined index: id in /var/www/html/web/jogoDaVelha/mvc/Modelo/Jogador.php on line 66
+[16-May-2019 11:52:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Modelo\Jogador::verificarSenha() in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php:26
+Stack trace:
+#0 [internal function]: Controlador\LoginControlador->login()
+#1 /var/www/html/web/framework/DW3Aplicacao.php(44): call_user_func_array(Array, Array)
+#2 /var/www/html/web/framework/DW3Aplicacao.php(18): Framework\DW3Aplicacao->executarControlador()
+#3 /var/www/html/web/jogoDaVelha/index.php(6): Framework\DW3Aplicacao->executar()
+#4 {main}
+  thrown in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php on line 26
+[16-May-2019 11:52:12 America/Sao_Paulo] PHP Notice:  Undefined index: id in /var/www/html/web/jogoDaVelha/mvc/Modelo/Jogador.php on line 66
+[16-May-2019 11:52:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Modelo\Jogador::verificarSenha() in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php:26
+Stack trace:
+#0 [internal function]: Controlador\LoginControlador->login()
+#1 /var/www/html/web/framework/DW3Aplicacao.php(44): call_user_func_array(Array, Array)
+#2 /var/www/html/web/framework/DW3Aplicacao.php(18): Framework\DW3Aplicacao->executarControlador()
+#3 /var/www/html/web/jogoDaVelha/index.php(6): Framework\DW3Aplicacao->executar()
+#4 {main}
+  thrown in /var/www/html/web/jogoDaVelha/mvc/Controlador/LoginControlador.php on line 26
+[16-May-2019 11:54:18 America/Sao_Paulo] PHP Notice:  Undefined index: id in /var/www/html/web/jogoDaVelha/mvc/Modelo/Jogador.php on line 66
+[16-May-2019 11:54:18 America/Sao_Paulo] PHP Warning:  require_once(/var/www/html/web/jogoDaVelha/mvc/Controlador/DW3Sessao.php): failed to open stream: No such file or directory in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:54:18 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/web/jogoDaVelha/mvc/Controlador/DW3Sessao.php' (include_path='.:/usr/share/php') in /var/www/html/web/framework/DW3Carregador.php on line 22
+[16-May-2019 11:56:35 America/Sao_Paulo] PHP Notice:  Undefined index: id in /var/www/html/web/jogoDaVelha/mvc/Modelo/Jogador.php on line 66
+[16-May-2019 11:57:01 America/Sao_Paulo] PHP Notice:  Undefined index: id in /var/www/html/web/jogoDaVelha/mvc/Modelo/Jogador.php on line 66
+[16-May-2019 12:01:32 America/Sao_Paulo] PHP Notice:  Undefined index: id in /var/www/html/web/jogoDaVelha/mvc/Modelo/Jogador.php on line 66

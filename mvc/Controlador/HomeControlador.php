@@ -10,10 +10,10 @@ class HomeControlador extends Controlador
         $this->visao('home/index.php');
     }
 
-    public function armazenar()
-    {
-        $mensagem = new Mensagem($_POST['usuario'], $_POST['texto']);
-        $mensagem->salvar();
-        $this->redirecionar(URL_RAIZ);
-    }
+//    public function armazenar()
+//    {
+//        $mensagem = new Mensagem($_POST['usuario'], $_POST['texto']);
+//        $mensagem->salvar();
+//        $this->redirecionar(URL_RAIZ);
+//    }
 }

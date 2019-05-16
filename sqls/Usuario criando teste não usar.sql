@@ -1,26 +1,30 @@
-create database projeto collate 'utf8_unicode_ci' ;
+create database jogo collate 'utf8_unicode_ci' ;
 
 
 
-drop database projeto;
+drop database jogo;
 drop table usuario;
 
 
-use projeto;
+use jogo;
 
 
 create table if not exists usuario(
-id_usuario int auto_increment,
-nome varchar(50) not null,
-sobrenome varchar(150) not null,
+id_usuario int not null auto_increment,
+nome varchar(300) not null,
+apelido varchar(50) not null,
 email varchar(200) not null,
 senha varchar(20) not null,
 primary key (id_usuario)
+
 );
 
-insert into usuario(nome,sobrenome,email,senha)
+
+
+
+insert into usuario(nome,apelido,email,senha)
 values
-('Ricardo','Martins de Oliveira','ricardo.de.oliveira96@gmail.com','12345');
+('Ricardo','magro','ricardo.de.oliveira96@gmail.com','12345');
 
 
-select * from usuario;mo
+select * from usuario;

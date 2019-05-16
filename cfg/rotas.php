@@ -12,6 +12,11 @@ $rotas = [
         'POST' => '\Controlador\LoginControlador#login',
     ],
 
+    '/sala' => [
+
+        'GET' => '\Controlador\SalaControlador#index',
+    ],
+
     '/cadastroUsuario' =>[
 
         'GET' => '\Controlador\CadastroUsuarioControlador#index',

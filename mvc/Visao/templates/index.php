@@ -30,7 +30,7 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="<?= URL_RAIZ  ?>">home</a></li>
                 <li><a href="<?= URL_RAIZ .'login' ?>">login</a></li>
-                <li><a href="collapsible.html">questões</a></li>
+                <li><a href="<?= URL_RAIZ .'sala' ?>">sala de espera</a></li>
             </ul>
             </div>
         </div>
