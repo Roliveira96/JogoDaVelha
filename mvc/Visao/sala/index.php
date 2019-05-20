@@ -16,7 +16,7 @@
                                     <p>Sala teste </p>
                                 </div>
                                 <div class="card-action">
-                                    <a href="#">1° Jogador</a>
+                                    <a href="<?= URL_RAIZ . 'partida'?>">1° Jogador</a>
                                     <a href="#">2° Jogador</a>
                                 </div>
                             </div>

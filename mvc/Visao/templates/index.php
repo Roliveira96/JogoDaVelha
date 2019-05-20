@@ -58,8 +58,11 @@
         </div>
 
     </footer>
-
+<script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
 <script type="text/javascript" src="<?= URL_JS . 'materialize.min.js' ?>"></script>
+<script type="text/javascript" src="<?= URL_JS . 'game.js' ?>"></script>
 <script type="text/javascript" src="<?= URL_JS . 'main.js' ?>"></script>
 </body>
 </html>

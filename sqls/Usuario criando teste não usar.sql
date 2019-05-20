@@ -24,7 +24,27 @@ primary key (id_usuario)
 
 insert into usuario(nome,apelido,email,senha)
 values
-('Ricardo','magro','ricardo.de.oliveira96@gmail.com','12345');
+('Ricardo1','magro','Ricardo','12345');
 
 
 select * from usuario;
+
+
+drop table partida ;
+
+
+create table partida(
+id_partida int not null auto_increment,
+idjogador1 int not null,
+apelido1 varchar(30) not null,
+idjogador2 int,
+apelido2 varchar(30),
+primary key(id_partida)
+);
+
+select * from partida;
+
+
+
+
+

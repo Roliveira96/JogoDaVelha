@@ -14,7 +14,11 @@ $rotas = [
 
     '/sala' => [
 
-        'GET' => '\Controlador\SalaControlador#index',
+       'GET' => '\Controlador\SalaControlador#index',
+    ],
+    '/partida' => [
+
+        'GET' => '\Controlador\SalaControlador#partida',
     ],
 
     '/cadastroUsuario' =>[
