@@ -21,8 +21,9 @@
                                 <img class="img_login" src="<?=URL_IMG.'login.png' ?>">
                             </div>
                             <div class="form">
-                                <input id="usuario" name="usuario" class="form-control campo-form" autofocus
-                                       placeholder="Email">
+
+
+
                             </div>
                             <div class="form">
                                 <input id="texto" name="senha"   type="password" placeholder="Senha">
@@ -46,6 +47,6 @@
 
 
 
-
 </div>
+
 <h6 class="center"><a href="<?= URL_RAIZ . 'cadastroUsuario' ?>" >Crie sua conta gratuitamente!</a></h6>
